@@ -1,0 +1,21 @@
+img { 
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+}
+
+.immagine {
+    display:flex;
+    justify-content:center;
+}
+
+h1 {  display:flex;
+    justify-content: center;
+
+}
+.ciao {
+    color:darkorchid;
+    justify-content: center;
+    font-family: unset;
+    font-size: 44;
+}   
