@@ -1,21 +1,64 @@
-img { 
-    border-radius: 50%;
-    width: 200px;
-    height:200px;
+.image-box {
+    display: flex;
+    justify-content: left;
 }
 
-.immagine {
-    display:flex;
-    justify-content:center;
-}
-
-h1 {  display:flex;
+h1 {
+    display: flex;
     justify-content: center;
+    color:rgb(255, 255, 255);
+    background-color:rgb(27, 105, 27);
+}
+
+h2 {
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    color:floralwhite;
+    background-color:rgb(27, 105, 27);
+}
+
+h3 {
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    color:rgb(3, 3, 3);
+    background-color:rgb(17, 139, 28);
+}
+
+.dove {
+    font-size: 15pt;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    background-color:rgb(17, 139, 28);
+    
+}
+
+.nord {
+    font-size: 15pt;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    background-color:rgb(17, 139, 28);
+    
+}
+
+.centro {
+    font-size: 15pt;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    background-color:rgb(17, 139, 28);
+    
+}
+
+.sud {
+    font-size: 15pt;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    background-color:rgb(17, 139, 28);
+    
+}
+
+body{
+    background-color:rgb(235, 236, 236);
 
 }
-.ciao {
-    color:darkorchid;
-    justify-content: center;
-    font-family: unset;
-    font-size: 44;
-}   
